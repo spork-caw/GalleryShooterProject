@@ -1,3 +1,5 @@
+//got a lot of help from Aslan Gilman!!
+
 // debug with extreme prejudice
 "use strict"
 //test 
@@ -10,6 +12,7 @@ let config = {
     },
     width: 1000,
     height: 800,
+    backgroundColor: "#222",
     physics: {
         default: 'arcade',  
         arcade: {
@@ -17,7 +20,7 @@ let config = {
             debug: false        
         }
     },
-    scene: [GalleryShooter, EndScene]
+    scene: [GalleryShooter, WinScene, EndScene]
 }
 
 // Global variable to hold sprites
